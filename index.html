@@ -1,0 +1,605 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "101698429432299");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Coffea Platform 🌐</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Coffea Platform</a></h1>
+				<span class="position"><a href="#">Hackathon:</a> UN Big Data 2022</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">	<I></I>Intro</a></li>
+						<li><a href="#" data-nav-section="about">Story</a></li>	
+						<li><a href="#" data-nav-section="services">Research</a></li>						
+						<li><a href="#" data-nav-section="skills">Data</a></li>						
+						<li><a href="#" data-nav-section="experience">Solution</a></li>
+						<li><a href="#" data-nav-section="work">Team</a></li>
+						<li><a href="#" data-nav-section="contact">Contact Us</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+				
+				<ul>
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/img_bg_01.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1>Coffee Farmers <br> Community </h1>
+						   					<h2>Powered by Team AlphaHack   
+												
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/img_bg_02.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1>Our <br>Goal</h1>
+												<h2>Identify the relation between Farmers education level and the contribution to coffee bean prices, Poverty and Hunger in LATAM.</h2>
+												
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Us</span>
+										<h2 class="colorlib-heading">Who We are?</h2>
+										<p><strong>🤖We are an International team of participants from China, Cameroon, Costa Rica and United States. </p>
+										<p>Our project is to identify the relation between Farmers education level and the contribution to coffee bean prices, Poverty and Hunger in LATAM.</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><i class="icon-star"></i></span>
+										<h3>3 Research Questions</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><i class="icon-globe"></i></span>
+										<h3>3 Countries</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><i class="icon-data"></i></span>
+										<h3>10 Datasets</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-world"></i></span>
+										<h3>Around the world</h3>
+									</div>
+								</div>
+							</div>
+			</section>
+
+
+			
+			<section class="colorlib-services" data-section="services">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">What We did?</span>
+							<h2 class="colorlib-heading">Research Hypotesis</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+								<div class="desc">
+									<h3>1.</h3>
+									<p>There is a positive correlation between Farmers educational level and coffee bean price.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-star"></i>
+								</span>
+								<div class="desc">
+									<h3>2.</h3>
+						<p>There is a positive correlation between coffee bean price and poverty.
+</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-world"></i>
+								</span>
+								<div class="desc">
+									<h3>3.</h3>
+						<p>There is a positive correlation between poverty and hunger.
+</p>
+
+								</div>
+							</div>
+						</div>
+						
+						
+						
+					</div>
+				</div>
+			</section>
+			
+
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">UN Big Data Hackathon</span>
+							<h2 class="colorlib-heading animate-box">Outcomes & Findings</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+<h3>Coffee Prices by Country - March 2022</h3>
+
+<iframe width="100%" height="415" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2CiboeILJWL74UpY-Th8ZlDcLdPdrj0MDg1HhMO8Q-mbykfZX3AM2ZDkPM6ZEka8E8FzgtdZKeUO1/pubchart?oid=1320689468&amp;format=interactive"></iframe>
+
+<h4>Findings: </h4>
+					   					<p>1. 60% of global coffee supply comes from smallholder farmers. </p>
+										<p>2. Almost half of all smallholder coffee producers live in poverty.  </p>
+										<p>3.85% Households income comes from Coffee. </p>
+										<p>3.Annual Payment Mode can constrain their financial health.</p>
+
+			</section>
+<h3>Prevalence of undernourishment in Costa Rica (% of population) by Year</h3>
+
+<iframe width="100%" height="415" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-K4cNhssqm7Et8WfXMKL8N3JgEuDa8UMBIbd44qC7CN3eGc1BC2u4UnQvPV9Qaw/pubchart?oid=1737341255&amp;format=interactive"></iframe>
+
+<h4>Findings: </h4>
+					   					<p>1.Lack of money and rising food prices results in months of food scarcity.  </p>
+										<p>2.CIAT’s research revealed that of the farmers interviewed across Nicaragua, Guatemala, and Mexico, 67% experienced between three and eight thin months of extreme food scarcity each year.  </p>
+										<p>3.A combination of low coffee prices, overdependence on a single product for income, no access to finance, and lack of opportunity to make substantive changes have resulted in a poverty trap for many families. </p>
+
+</section>
+
+<h3>Price of Coffee Bean US$/qq	</h3>
+
+<iframe width="100%" height="415"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyaa6902JYCv1dYacli3DvLTy9OzOntHff-HnVhAyKL2S8B9EiA51sKGuVtlyzCg/pubchart?oid=1906944039&amp;format=interactive"></iframe>
+		
+<h3>Total net enrolment rate, primary, gender parity index (GPI) in Costa Rica by Year</h3>
+
+<iframe width="100%" height="415" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTk9w4qffifIHMST8oMvT6d5DrmvSn_G4m9WUcQe8r94xG_zQb26aJDaQ-NyV2JJ7vCbm0ZFAqHsr8u/pubchart?oid=370266367&amp;format=interactive"></iframe>
+
+<h4>Findings: </h4>
+					   					<p>1.X </p>
+										<p>2.Y </p>
+										<p>3.Z </p>
+
+</section>
+
+<h3>Gross enrolment ratio, lower secondary VS upper secondary both sexes (%) in Costa Rica by Year</h3>
+
+<iframe width="100%" height="415" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTk9w4qffifIHMST8oMvT6d5DrmvSn_G4m9WUcQe8r94xG_zQb26aJDaQ-NyV2JJ7vCbm0ZFAqHsr8u/pubchart?oid=759516368&amp;format=interactive"></iframe>
+
+<h4>Findings: </h4>
+					   					<p>1.X </p>
+										<p>2.Y </p>
+										<p>3.Z </p>
+
+</section>
+
+<h3>Gross enrolment ratio, lower secondary, both sexes (%) in Costa Rica by Year</h3>
+
+<iframe width="100%" height="415" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTk9w4qffifIHMST8oMvT6d5DrmvSn_G4m9WUcQe8r94xG_zQb26aJDaQ-NyV2JJ7vCbm0ZFAqHsr8u/pubchart?oid=322687916&amp;format=interactive"></iframe>
+
+<h4>Findings: </h4>
+					   					<p>1.X </p>
+										<p>2.Y </p>
+										<p>3.Z </p>
+
+</section>
+
+<h3>Gross enrolment ratio, upper secondary, both sexes (%) in Costa Rica by Year</h3>
+<iframe width="100%" height="415" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTk9w4qffifIHMST8oMvT6d5DrmvSn_G4m9WUcQe8r94xG_zQb26aJDaQ-NyV2JJ7vCbm0ZFAqHsr8u/pubchart?oid=1717279774&amp;format=interactive"></iframe>
+
+<h4>Findings: </h4>
+					   					<p>1.X </p>
+										<p>2.Y </p>
+										<p>3.Z </p>
+
+</section>
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">What's next?</span>
+							<h2 class="colorlib-heading animate-box">Coffea Platform</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">1.</a> <span>Self-paced education materials</span></h2>
+					                  <p>teach them how to negotiate and market their products to exporters and consumers. </p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">2.</a> <span>A data section</span></h2>
+					                  <p>shows the coffee bean prices in neighboring countries in the current year and historically for their reference</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">3.</a> <span>Direct business partnership function (B2B): </span></h2>
+					                  <p>where they can contact all the authorized coffee bean exporters in the region </p>
+					               </div>
+					            </div>
+					         </article>
+
+
+ <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">4.</a> <span>Direct customer outreach function(B2C):</span></h2>
+					                  <p>where they can receive messages and inquiries from interested consumers worldwide.</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">5.</a> <span> Coffee bean farmer supporting group community:</span></h2>
+					                  <p>a forum where coffee bean farmers can communicate with each other.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">6.</a> <span>Governmental policy updates section: </span></h2>
+					                  <p>where they can learn any relevant governmental policies related to coffee bean farming.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Our Team </span>
+							<h2 class="colorlib-heading animate-box">Members</h2>
+						</div>
+					</div>
+					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+						
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/img-1.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Leandro Camacho</a></h3>
+										<span>Hackathon Team</span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-2.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Saint Roger Bountsebe Eboueme</a></h3>
+										<span>Hackathon Team</span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url(images/img-3.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Linhan Milly Jiang</a></h3>
+										<span>Hackathon Team</span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url(images/img-4.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Maggie Li</a></h3>
+										<span>Hackathon Team</span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/img-5.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Karson Jin</a></h3>
+										<span>Hackathon Team</span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+											</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact Us</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+<p><a href="#">leandrocg@consultant.com</a></p>									
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>SJO, CRI</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">+506 6051-4917 </a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<form action="">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Subject">
+										</div>
+										<div class="form-group">
+											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+										</div>
+									</form>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
